@@ -1,0 +1,28 @@
+{
+  "name": "audiophile",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "remix dev --manual",
+    "build": "remix build",
+    "start": "remix-serve ./build/index.js"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.0.18",
+    "@remix-run/css-bundle": "^2.6.0",
+    "@remix-run/node": "^2.6.0",
+    "@remix-run/react": "^2.6.0",
+    "@remix-run/serve": "^2.6.0",
+    "clsx": "^2.1.0",
+    "isbot": "^4.4.0",
+    "just-capitalize": "^3.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.6.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1"
+  }
+}
